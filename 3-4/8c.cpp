@@ -1,9 +1,9 @@
-// Кудявцев К. А. ИПБ-20; 3.3 #8a
+// Кудявцев К. А. ИПБ-20; 3.3 #8c
 
 /*
-Задача 8a.
+Задача 8b.
 С клавиатуры вводится строка.
-a. Заменить все вхождения подстроки «я» на подстроку «ты».
+b. Найти количество вхождений заданной подстроки в эту строку.
 */
 
 #include <iostream>
@@ -25,15 +25,14 @@ std::string readStr() {
 
 int main() {
     auto input = readStr();
+    auto total = 0;
 
-    auto i = input.find('i');
-    while (i != -1) {
-        input.replace(i, 1, "you");
-
-        i = input.find('i');
+    for (auto ch : input) {
+        if (ch >= 44 and ch <= 46)
+            total ++;
     }
 
-    std::cout << "result=" << input;
+    std::cout << "total=" << total;
 
     return 0;
 }

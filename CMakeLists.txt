@@ -33,3 +33,5 @@ add_executable(cpp_labs_3_3__5 3-3/5.cpp)
 
 add_executable(cpp_labs_3_4__7 3-4/7.cpp)
 add_executable(cpp_labs_3_4__8a 3-4/8a.cpp)
+add_executable(cpp_labs_3_4__8b 3-4/8b.cpp)
+add_executable(cpp_labs_3_4__8c 3-4/8c.cpp)

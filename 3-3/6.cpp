@@ -12,15 +12,18 @@ const int N = 7;
 
 int main() {
     int arr[N] = {1,2,3,4,5,6,7};
+    for (auto el : arr) std::cout << el << ',';
+    std::cout << '\n';
 
-    for (int k = 0; k < 2; ++k) {
-        int tmp = arr[0];
+    int tmp = arr[0];
+    int tmp2 = arr[1];
 
-        for (int i = 0; i < N - 1; ++i)
-            arr[i] = arr[i + 1];
-
-        arr[N-1] = tmp;
+    for (int i = 0; i < (N - 1); ++i) {
+        arr[i] = arr[i + 2];
     }
+
+    arr[N-2] = tmp;
+    arr[N-1] = tmp2;
 
     for (auto el : arr) std::cout << el << ',';
 
