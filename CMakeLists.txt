@@ -23,3 +23,13 @@ add_executable(cpp_labs_3_2__4 3-2/4.cpp)
 add_executable(cpp_labs_3_2__3v 3-2/3v.cpp)
 add_executable(cpp_labs_3_2__3b 3-2/3b.cpp)
 add_executable(cpp_labs_3_2__3a 3-2/3a.cpp)
+
+add_executable(cpp_labs_3_3__10 3-3/10.cpp)
+add_executable(cpp_labs_3_3__9 3-3/9.cpp)
+add_executable(cpp_labs_3_3__8 3-3/8.cpp)
+add_executable(cpp_labs_3_3__7 3-3/7.cpp)
+add_executable(cpp_labs_3_3__6 3-3/6.cpp)
+add_executable(cpp_labs_3_3__5 3-3/5.cpp)
+
+add_executable(cpp_labs_3_4__7 3-4/7.cpp)
+add_executable(cpp_labs_3_4__8a 3-4/8a.cpp)
