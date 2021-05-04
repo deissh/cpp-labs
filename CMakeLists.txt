@@ -52,3 +52,12 @@ add_executable(cpp_labs_3_6__7 3-6/7.cpp)
 add_executable(cpp_labs_3_6__8 3-6/8.cpp)
 add_executable(cpp_labs_3_6__9 3-6/9.cpp)
 add_executable(cpp_labs_3_6__10 3-6/10.cpp)
+
+add_executable(cpp_labs_3_7__6 3-7/6.cpp)
+add_executable(cpp_labs_3_7__7 3-7/7.cpp)
+add_executable(cpp_labs_3_7__8 3-7/8.cpp)
+add_executable(cpp_labs_3_7__9a 3-7/9a.cpp)
+
+add_executable(cpp_labs_3_9__5 3-9/5.cpp)
+add_executable(cpp_labs_3_9__6 3-9/6.cpp)
+add_executable(cpp_labs_3_9__7 3-9/7.cpp)
