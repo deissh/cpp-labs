@@ -72,4 +72,8 @@ add_executable(cpp_labs_3_9__7 3-9/7.cpp)
 add_executable(cpp_labs_3_9__8 3-9/8.cpp)
 add_executable(cpp_labs_3_9__9 3-9/9.cpp)
 
+add_executable(cpp_labs_3_10__4 3-10/4.cpp)
+add_executable(cpp_labs_3_10__5 3-10/5.cpp)
+add_executable(cpp_labs_3_10__6 3-10/6.cpp)
+
 add_executable(cpp_labs_lab_2 lab_2.cpp)
