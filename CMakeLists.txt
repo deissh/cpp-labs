@@ -3,6 +3,8 @@ project(cpp_labs)
 
 set(CMAKE_CXX_STANDARD 20)
 
+find_package(benchmark REQUIRED)
+
 add_executable(cpp_labs_3_1__24 3-1/24.cpp)
 add_executable(cpp_labs_3_1__23 3-1/23.cpp)
 add_executable(cpp_labs_3_1__22 3-1/22.cpp)
@@ -75,5 +77,6 @@ add_executable(cpp_labs_3_9__9 3-9/9.cpp)
 add_executable(cpp_labs_3_10__4 3-10/4.cpp)
 add_executable(cpp_labs_3_10__5 3-10/5.cpp)
 add_executable(cpp_labs_3_10__6 3-10/6.cpp)
+target_link_libraries(cpp_labs_3_10__6 benchmark::benchmark)
 
 add_executable(cpp_labs_lab_2 lab_2.cpp)
